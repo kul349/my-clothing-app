@@ -19,9 +19,7 @@ It includes a header, hero section, product categories, featured products, and a
 ### 📌 Footer
 ![Footer](public/screenshot/img4.png)
 
-*(Make sure your images are actually saved inside `public/screenshot/` with the exact same filenames.)*
 
----
 
 ## Available Scripts
 
