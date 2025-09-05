@@ -73,6 +73,33 @@ function App() {
             
           </div>
         </section>
+        {/* product section */}
+
+<section className='container mx-auto py-16 px-6'>
+  <h2 className='text-3xl font-serif text-center mb-12'>Our Latest Product</h2>
+  <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+    <div className='bg-white broder border-gray-200 p-4 shadow-sm hover:shadow-sm transition-shadow duration-300'>
+      <img src="/assets/img5.jpg" alt="product1" className='w-full h-72 object-cover'/>
+       <h3 className="text-lg font-medium">Silk Midi Dress</h3>
+            <p className="text-sm text-gray-600">- ATELIER</p>
+            <p className="text-lg font-semibold mt-2">$120</p>
+    </div>
+    <div className='bg-white border border-gray-200 p-4 shadow-sm hover:shadow-sm transition-shadow duration-300'>
+              <img src="/assets/img4.jpg" alt="product2" className='w-full h-72 object-cover' />
+  <h3 className="text-lg font-medium">Organic Cotton Tee</h3>
+            <p className="text-sm text-gray-600">- MODE</p>
+            <p className="text-lg font-semibold mt-2">$45</p>  
+
+    </div>
+
+     <div className='bg-white broder border-gray-200 p-4 shadow-sm hover:shadow-sm transition-shadow duration-300'>
+      <img src="/assets/img3.jpg" alt="product1" className='w-full h-72 object-cover'/>
+       <h3 className="text-lg font-medium">Linen Jumpsuit</h3>
+            <p className="text-sm text-gray-600">- ATELIER</p>
+            <p className="text-lg font-semibold mt-2">$90</p>
+    </div>
+  </div>
+</section>
     </div>
   )
 }
