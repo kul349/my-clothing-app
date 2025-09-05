@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -98,8 +99,39 @@ function App() {
             <p className="text-sm text-gray-600">- ATELIER</p>
             <p className="text-lg font-semibold mt-2">$90</p>
     </div>
+
+    <div className='bg-white broder border-gray-200 p-4 shadow-sm hover:shadow-sm transition-shadow duration-300'>
+      <img src="/assets/img6.jpg" alt="product1" className='w-full h-72 object-cover'/>
+       <h3 className="text-lg font-medium">Leather Crossbody Bag</h3>
+            <p className="text-sm text-gray-600">- MODE</p>
+            <p className="text-lg font-semibold mt-2">$188</p>
+    </div>
   </div>
 </section>
+<footer className='bg-gray-900 text-white py-10 mt-6'>
+<div className='container mx-auto px-6 flex flex-wrap justify-between items-center text-sm'>
+  <div className='mb-4 md:mb-0'>
+    <p>&copy; {new Date().getFullYear()} ATELIER MODE. ALL right reserved</p>
+  </div>
+  <div className='flex space-x-6'>
+    <a href="#" className='hover:text-gray-300 transition-color duration-200'>ABOUT US</a>
+    <a href="#" className='hover:text-gray-300 transition-color duration-200'>CUSTOMER SERVICE</a>
+    <a href="#" className='hover:text-gray-300 transition-color duration-200'>PRIVACY POLICY</a>
+
+  </div>
+   <div className="flex space-x-4 mt-4 md:mt-0">
+  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+    <FaFacebookF />
+  </a>
+  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+    <FaTwitter />
+  </a>
+  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
+    <FaInstagram />
+  </a>
+</div>
+</div>
+</footer>
     </div>
   )
 }
