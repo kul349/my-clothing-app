@@ -11,13 +11,13 @@ It includes a header, hero section, product categories, featured products, and a
 ![Hero](public/screenshot/image.png)
 
 ### 🛍️ Categories
-![Categories](public/screenshot/img1.png)
+![Categories](public/screenshot/img2.png)
 
 ### 🧥 Products
-![Products](public/screenshot/img2.png)
+![Products](public/screenshot/img3.png)
 
 ### 📌 Footer
-![Footer](public/screenshot/img3.png)
+![Footer](public/screenshot/img4.png)
 
 *(Make sure your images are actually saved inside `public/screenshot/` with the exact same filenames.)*
 
